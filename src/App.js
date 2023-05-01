@@ -5,6 +5,8 @@ import Offers from "./pages/Offers";
 import SignUp from "./pages/SignUp";
 import ForgotPassword from "./pages/ForgotPassword";
 import SignLn from "./pages/SignLn";
+import Headers from "./components/Headers";
+
 
 
 
@@ -13,7 +15,7 @@ function App() {
     <>
 
 <Router>
-
+<Headers/>
 <Routes>
 
   <Route path="/" element={<Home/>}></Route>
