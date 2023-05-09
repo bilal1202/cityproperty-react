@@ -45,7 +45,7 @@ displayName:name
   
   await setDoc(doc(db,"users",user.uid),formDatacopy)
   toast.success("Signup was successfull")
-  navigate("/");
+    navigate("/");
    
 } catch (error) {
   toast.error("Something went wrong with registration")
